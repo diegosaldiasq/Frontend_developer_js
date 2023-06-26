@@ -55,6 +55,21 @@ productList.push({
     image: 'https://images.pexels.com/photos/3589903/pexels-photo-3589903.jpeg?auto=compress&cs=tinysrgb&w=1200',
 });
 
+/*
+<div class="product-card">
+    <img src="https://images.pexels.com/photos/100582/pexels-photo-100582.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="imagen no encontrada" class="product-img">
+    <div class="product-info">
+        <div>
+            <p>$120,00</p>
+            <p>Bike</p>
+        </div>
+        <figure>
+            <img src="./icons/bt_add_to_cart.svg" alt="">
+        </figure>
+    </div>
+</div>
+*/
+
 function renderProducts(arr) {
     for (product of arr) {
         const productCard = document.createElement('div');
